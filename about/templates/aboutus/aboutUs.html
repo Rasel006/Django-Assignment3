@@ -1,0 +1,58 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+{% block cssOfAbout %}
+<link rel="stylesheet" href="{% static 'style_about.css' %}">
+{% endblock cssOfAbout %}
+
+{% block About_Content %}
+<div class="Main_container">
+  <div>
+    <img
+      src="{% static 'rizu1.png' %}"
+      alt="profile_picture"
+      srcset=""
+      class="imgeofabout"
+    />
+  </div>
+  <div class="profiel_info">
+    <h1>Md. Rasel</h1>
+    <p>
+        Greetings from Al Baik's culinary realm! I'm Rasel, the tech-savvy owner and flavor maestro. 
+        My journey blends programming finesse with culinary artistry, creating a unique symphony of taste and innovation.
+        Join us for a delightful experience where each byte and bite tell a story of passion and gastronomic craftsmanship.
+        Welcome to our distinctive world at the heart of Al Baik!
+    </p>
+  </div>
+  <div class="Restaurant_info">
+    <h2>*About Our Restaurant*</h2>
+    <p>
+        Welcome to Al Baik, where the symphony of programming meets the culinary stage! As the proud owner and seasoned programmer, 
+        I've crafted Al Baik to transcend the ordinary—more than just a restaurant,
+        it's a seamless blend of technology and gastronomic delight.
+
+        👨‍🍳 Mastering Code and Culinary Craftsmanship:
+        With over two decades of expertise, I bring a symphony of flavors to your table. 
+        From writing elegant lines of code to curating mouthwatering recipes, 
+        each dish is a harmonious blend of precision and creativity.`   
+
+        🍲 Handcrafted Culinary Wonders:
+        Every dish at Al Baik is a labor of love, prepared with meticulous attention to detail.
+        Our menu reflects a commitment to quality, freshness, and a touch of programming magic that sets our offerings apart.
+
+        🤝 Community and Connection:
+        Beyond the bytes and bites, Al Baik is about building a community. Join us in a space where technology and food converge,
+        creating connections and memories that go beyond the plate.
+
+        🎉 20 Years of Culinary Excellence:
+        Thank you for being part of our journey! As we celebrate two decades of serving excellence,
+        Al Baik invites you to experience the extraordinary flavors that define our legacy.
+
+        📱 Stay Connected:
+        Follow us on social media for exclusive behind-the-scenes content, tech-infused recipes,
+        and special promotions. Let's continue this flavorful journey together!***
+    </p>
+  </div>
+</div>
+
+{% endblock About_Content %}
